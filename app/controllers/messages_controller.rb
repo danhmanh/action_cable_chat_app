@@ -10,7 +10,7 @@ class MessagesController < ApplicationController
     if message.save
       redirect_to messages_url
     else
-      render 'index'
+      render :index
     end
   end
 
