@@ -109,12 +109,11 @@ GEM
     notiffany (0.1.1)
       nenv (~> 0.1)
       shellany (~> 0.0)
-    pg (0.18.4)
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    puma (3.4.0)
+    puma (3.12.1)
     rack (2.0.1)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -203,8 +202,7 @@ DEPENDENCIES
   jquery-rails (= 4.1.1)
   listen (= 3.0.8)
   minitest-reporters (= 1.1.9)
-  pg (= 0.18.4)
-  puma (= 3.4.0)
+  puma (~> 3.7)
   rails (= 5.0.1)
   rails-controller-testing (= 0.1.1)
   sass-rails (= 5.0.6)
@@ -217,4 +215,4 @@ DEPENDENCIES
   web-console (= 3.1.1)
 
 BUNDLED WITH
-   1.14.3
+   1.16.6
